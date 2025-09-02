@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Instagram, MapPin, Moon, Sun } from "lucide-react";
-import BrotLogo from "./BrotLogo";
+import LogoNav from "./LogoNav";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +49,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <BrotLogo className="h-10" isScrolled={isScrolled} />
+            <LogoNav height={40} className="h-10" isScrolled={isScrolled} />
           </div>
           
           <div className="hidden md:block">

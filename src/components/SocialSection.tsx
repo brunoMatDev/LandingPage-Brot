@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Instagram, Share2, Camera, Hash } from "lucide-react";
+import { Instagram, Share2, Camera, Hash, Facebook } from "lucide-react";
 
 const SocialSection = () => {
   const handleShare = () => {
@@ -109,7 +109,25 @@ const SocialSection = () => {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="font-bold">12.5K</div>
+                  <div className="font-bold">2K</div>
+                  <div className="text-xs opacity-90">seguidores</div>
+                </div>
+              </a>
+              <a 
+                href="https://www.facebook.com/profile.php?id=100063583779117&locale=es_LA" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                >
+                <div className="flex items-center gap-3">
+                  <Facebook className="h-6 w-6" />
+                  <div>
+                    <div className="font-semibold">Facebook</div>
+                    <div className="text-sm opacity-90">Panadería Brot</div>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="font-bold">1K</div>
                   <div className="text-xs opacity-90">seguidores</div>
                 </div>
               </a>

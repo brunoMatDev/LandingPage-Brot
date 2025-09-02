@@ -70,11 +70,11 @@ const ProductModal = ({ category, isOpen, onClose }: ProductModalProps) => {
         <div className="space-y-6">
           {/* Carrusel de imágenes */}
           <div className="relative">
-            <div className="relative h-80 md:h-96 overflow-hidden rounded-lg">
+            <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-white">
               <img
                 src={currentProduct.image}
                 alt={currentProduct.name}
-                className="w-full h-full object-cover transition-all duration-500"
+                className="w-full h-full object-contain transition-all duration-500"
               />
               
               {/* Botones de navegación */}

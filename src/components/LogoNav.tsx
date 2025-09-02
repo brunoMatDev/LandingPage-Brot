@@ -1,6 +1,6 @@
-import logoImage from "@/assets/images/Logo.png";
+import logoImage from "@/assets/images/LogoNav.png";
 
-const BrotLogo = ({
+const LogoNav = ({
   className = "",
   isScrolled = false,
   height = 48,
@@ -28,4 +28,4 @@ const BrotLogo = ({
   );
 };
 
-export default BrotLogo;
+export default LogoNav;

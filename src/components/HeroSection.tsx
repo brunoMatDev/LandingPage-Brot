@@ -20,12 +20,12 @@ const HeroSection = () => {
       
       <div className="relative z-10 text-center px-3 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="bg-brot-cream/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 shadow-2xl border border-brot-gold/20">
-          <div className="flex justify-center mb-4 sm:mb-6">
-            <BrotLogo className="h-12 sm:h-16 lg:h-20" />
+          <div className="flex justify-center mb-4 sm:mb-12">
+            <BrotLogo height={200} className="h-12 sm:h-16 lg:h-20" disableBlend />
           </div>
           
           <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-brot-brown-dark mb-4 sm:mb-6 leading-tight">
-            El aroma del pan recién horneado
+            El aroma del pan fresco
             <br />
             <span className="text-brot-gold">te espera cada mañana</span>
           </h1>

@@ -4,11 +4,19 @@ import { Badge } from "@/components/ui/badge";
 import ProductModal from "./ProductModal";
 import panesImage from "@/assets/images/panes.svg";
 import sandwichesImage from "@/assets/images/sandwiches.jpg";
-import facturasImage from "@/assets/images/facturas.svg";
 import empanadasImage from "@/assets/images/empanadas.svg";
 import postresImage from "@/assets/images/postres.svg";
 import especialesImage from "@/assets/images/especiales.svg";
-import jyqNegro from "@/assets/images/jyq-negro.webp";
+import facturasImage from "@/assets/images/facturas.jpg";
+import tartaFrutillaImage from "@/assets/images/TartaFrutilla.jpg";
+import BrownieImage from "@/assets/images/Brownie.jpg";
+import BudinesImage from "@/assets/images/Budines.jpg";
+import PanImage from "@/assets/images/Pan.jpg";
+import PastaFrolaImage from "@/assets/images/PastaFrola.jpg";
+import PasteleriaImage from "@/assets/images/Pasteleriadulce.jpg";
+import PastelitosImage from "@/assets/images/Pastelitos.jpg";
+import PostreOreoImage from "@/assets/images/PostreOreo.jpg";
+import SelvaNegraImage from "@/assets/images/SelvaNegra.jpg";
 
 // Datos de las categorías de productos
 const productCategories = [
@@ -22,7 +30,7 @@ const productCategories = [
       {
         id: 1,
         name: "Pan",
-        image: panesImage,
+        image: PanImage,
         description: "Pan artesanal con masa madre y fermentación natural",
         price: "$180"
       },
@@ -115,7 +123,7 @@ const productCategories = [
   {
     id: 2,
     name: "Pastelería Dulce",
-    image: facturasImage,
+    image: PasteleriaImage,
     description: "Facturas, scones, polvorones y masas secas tradicionales",
     badge: "Especialidad",
     products: [
@@ -164,7 +172,7 @@ const productCategories = [
       {
         id: 20,
         name: "Budín de Chocolate",
-        image: facturasImage,
+        image: BudinesImage,
         description: "Budín de chocolate casero",
         price: "$120"
       },
@@ -236,7 +244,7 @@ const productCategories = [
       {
         id: 29,
         name: "Torta Brownie",
-        image: postresImage,
+        image: BrownieImage,
         description: "Torta brownie con chocolate y nueces",
         price: "$280"
       },
@@ -250,7 +258,7 @@ const productCategories = [
       {
         id: 31,
         name: "Selva Negra",
-        image: postresImage,
+        image: SelvaNegraImage,
         description: "Torta selva negra con cerezas",
         price: "$320"
       },
@@ -292,7 +300,7 @@ const productCategories = [
       {
         id: 37,
         name: "Postre de Oreo",
-        image: postresImage,
+        image: PostreOreoImage,
         description: "Postre de oreo individual",
         price: "$80"
       },
@@ -336,7 +344,7 @@ const productCategories = [
       {
         id: 42,
         name: "Tarta de Frutilla",
-        image: postresImage,
+        image: tartaFrutillaImage,
         description: "Tarta de frutilla fresca",
         price: "$190"
       },
@@ -357,7 +365,7 @@ const productCategories = [
       {
         id: 45,
         name: "Tarta Pasta Frola",
-        image: postresImage,
+        image: PastaFrolaImage,
         description: "Tarta pasta frola con dulce de membrillo",
         price: "$150"
       },
@@ -452,7 +460,7 @@ const productCategories = [
       {
         id: 56,
         name: "Pastelitos",
-        image: especialesImage,
+        image: PastelitosImage,
         description: "Pastelitos tradicionales argentinos",
         price: "$80"
       }
@@ -493,11 +501,11 @@ const ProductsSection = () => {
               className="group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 bg-card/80 backdrop-blur-sm overflow-hidden cursor-pointer"
               onClick={() => handleCategoryClick(category)}
             >
-              <div className="relative">
+              <div className="relative bg-white/70 flex items-center justify-center">
                 <img
                   src={category.image}
                   alt={category.name}
-                  className="w-full h-48 sm:h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-48 sm:h-64 object-contain transition-transform duration-500"
                 />
                 {category.badge && (
                   <Badge className="absolute top-2 sm:top-4 left-2 sm:left-4 bg-brot-gold text-brot-cream font-semibold text-xs sm:text-sm">
