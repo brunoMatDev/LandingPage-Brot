@@ -6,7 +6,7 @@ const locations = [
     id: 1,
     name: "BROT Colón",
     address: "Av. Colon 8871, Mar del Plata",
-    phone: "(0223) 520-0844",
+    phone: "223 520-0844",
     hours: "Lun-Sab: 8:00 - 13:00 / 16:00 - 20:00 | Dom: 8:00 - 13:00",
     description: "Nuestra sucursal principal en el corazón de la ciudad",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Av.+Colon+8871,+Mar+del+Plata"
@@ -15,7 +15,7 @@ const locations = [
     id: 2,
     name: "BROT Libertad", 
     address: "Av. Libertad 4901, Mar del Plata",
-    phone: "(0223) 540-9745",
+    phone: "223 540-9745",
     hours: "Lun-Sab: 8:00 - 13:00 / 16:00 - 20:00 | Dom: 8:00 - 13:00",
     description: "Tradición y calidad en el barrio Libertad",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Av.+Libertad+4901,+Mar+del+Plata"

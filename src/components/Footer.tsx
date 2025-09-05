@@ -30,14 +30,6 @@ const Footer = () => {
               >
                 <MessageCircle className="h-4 w-4 text-white" />
               </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=100063583779117&locale=es_LA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full hover:opacity-90 transition-opacity duration-300"
-              >
-                <FaFacebook className="h-4 w-4 text-white" />
-              </a>
 
             </div>
           </div>
@@ -105,17 +97,7 @@ const Footer = () => {
                   <span>Instagram</span>
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100063583779117&locale=es_LA"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brot-gold transition-colors duration-200 cursor-pointer flex items-center gap-2"
-                >
-                  <FaFacebook className="h-4 w-4 text-blue-600" />
-                  <span>Facebook</span>
-                </a>
-              </li>
+              
             </ul>
           </div>
 

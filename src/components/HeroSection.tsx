@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-brot-brown/20"></div>
       </div>
       
-      <div className="relative z-10 text-center px-3 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-10 sm:px-6 lg:px-10 max-w-3xl mx-auto">
         <div className="bg-brot-cream/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 shadow-2xl border border-brot-gold/20">
           <div className="flex justify-center mb-4 sm:mb-12">
             <BrotLogo height={200} className="h-12 sm:h-16 lg:h-20" disableBlend />
@@ -32,7 +32,6 @@ const HeroSection = () => {
           
           <p className="text-sm sm:text-lg lg:text-xl text-brot-brown mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
             Desde 2021 en Mar del Plata, horneamos con pasión y tradición familiar. 
-            <br></br>Descubrí el sabor auténtico de la panadería en nuestras sucursales.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
